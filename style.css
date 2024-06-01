@@ -10,6 +10,13 @@ body{
     margin: 0;
     padding: 0;
 }
+.container{
+    width: 80%;
+    margin: auto;
+}
+.primary-color{
+    color: #D64DC5;
+}
 .btn{
     padding: 8px 10px;
     color: white;
@@ -36,6 +43,7 @@ body{
 ------------------- */
 header{
     padding-top: 1rem;
+    background-color: #FDF7FD;
 }
 header .logo{
     display: flex;
@@ -47,7 +55,7 @@ header .logo{
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 
@@ -70,13 +78,12 @@ nav ul li:hover{
 }
 
 .banner{
-    background-color: #FDF7FD;
     padding: 20px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .banner-details{
-    
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,13 +101,33 @@ nav ul li:hover{
     margin-right: 10px;
 }
 .banner-details h1{
-    color: #D64DC5;
     font-size: 4rem;
     margin: 10px 0;
 }
 .banner-image{
-    width: 30%;
+    width: 50%;
 }
 .banner-image img{
     width: 100%;
 }
+
+/* -----------------
+       Main
+----------------- */
+
+/* -------------------
+    Gamer Section
+------------------ */
+.gamer-section{
+    background-color: #FFF9FC;
+    padding: 30px 0;
+}
+.gamer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.gamer-details{
+    text-align: right;
+}
+
+
