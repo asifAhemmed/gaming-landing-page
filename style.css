@@ -130,4 +130,25 @@ nav ul li:hover{
     text-align: right;
 }
 
+/* --------------------------
+    Online Games Section
+--------------------------- */
+.online-games{
+    margin: 30px 0;
+    text-align: center;
+}
+.games-flex{
+    display: flex;
+    gap:20px ;
+    justify-content: space-between;
+}
+
+.games-flex .games-image{
+        width: 50%;
+}
+
+.games-flex .games-image img{
+    width: 100%;
+}
+
 
