@@ -151,4 +151,46 @@ nav ul li:hover{
     width: 100%;
 }
 
+/* -------------------
+       Footer 
+------------------- */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0223;
+    color: white;
+    padding: 50px 0;
+}
+.footer-logo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.footer-container ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.footer-feature{
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.social-links {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+.footer-ending{
+    color: rgb(197, 193, 193);
+    text-align: center;
+    margin: 30px 0;
+}
+
+
 
