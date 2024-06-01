@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* --------------
+Utilities
+-------------- */
+
+body{
+    font-family: "Work Sans", sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    padding: 8px 10px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-primary{
+    background-color: #FF42A5;  
+}
+.btn-primary:hover{
+    background-color:#cb1573 ;
+}
+.btn-secondary{
+    background-color: #4EC5F7;
+}
+.btn-secondary:hover{
+    background-color: #109bd7;
+}
+
+/* ------------------
+    Header
+------------------- */
+header{
+    padding-top: 1rem;
+}
+header .logo{
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.logo span{
+    color: #FF42A5;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+nav ul li:hover{
+ font-weight: bold;
+}
+
+.banner{
+    background-color: #FDF7FD;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.banner-details{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-details ul{
+    list-style-type: none;
+    padding: 0;
+}
+.banner-details ul li{
+    margin: 10px 0px;
+}
+.banner-details ul i{
+    margin-right: 10px;
+}
+.banner-details h1{
+    color: #D64DC5;
+    font-size: 4rem;
+    margin: 10px 0;
+}
+.banner-image{
+    width: 30%;
+}
+.banner-image img{
+    width: 100%;
+}
