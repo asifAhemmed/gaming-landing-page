@@ -68,12 +68,14 @@ nav ul {
     list-style-type: none;
 }
 
-nav ul li{
+nav ul li a{
+    color : black;
     font-weight: 500;
     margin-right: 20px;
+    text-decoration: none;
 }
 
-nav ul li:hover{
+nav ul li a:hover{
  font-weight: bold;
 }
 
@@ -122,7 +124,7 @@ nav ul li:hover{
     background-color: #FFF9FC;
     padding: 30px 0;
 }
-.gamer-flex{
+.gamer{
     display: flex;
     justify-content: space-between;
 }
@@ -133,21 +135,21 @@ nav ul li:hover{
 /* --------------------------
     Online Games Section
 --------------------------- */
-.online-games{
-    margin: 30px 0;
+.online-games-section{
+    margin: 50px 0;
     text-align: center;
 }
-.games-flex{
+.games{
     display: flex;
     gap:20px ;
     justify-content: space-between;
 }
 
-.games-flex .games-image{
+.games .games-image{
         width: 50%;
 }
 
-.games-flex .games-image img{
+.games .games-image img{
     width: 100%;
 }
 /* ------------------------
@@ -209,6 +211,53 @@ nav ul li:hover{
     border-radius: 50px;
     padding: 1rem;
     color: #D64DC5;
+}
+
+/* ----------------------------
+     Testimonials Section
+------------------------------ */
+
+
+.testimonials-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.testimonial {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.testimonial:last-child {
+    border-bottom: none;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+.testimonial h4 {
+    font-size: 1.1em;
+    color: #777;
+    margin-top: 0;
 }
 /* -------------------
        Footer 
