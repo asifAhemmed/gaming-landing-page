@@ -150,6 +150,48 @@ nav ul li:hover{
 .games-flex .games-image img{
     width: 100%;
 }
+/* ------------------------
+  Careers Section
+------------------------- */
+.careers-section{
+    background-color: #FF55AE ;
+    color: white;
+}
+.careers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.careers-description{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 4rem 0;
+}
+.careers-image{
+    width: 70%;
+}
+.careers-image img{
+    width: 100%;
+}
+.position{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.position-btn{
+    background-color: white;
+    color: #FF55AE ;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 1rem 1rem;
+}
+.position-btn:hover{
+    color: black;
+}
 
 /* --------------------------------
     Games Categories Section
